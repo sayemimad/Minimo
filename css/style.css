@@ -1,0 +1,244 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*//*
+
+/*common css*/
+body{ 
+	margin: 0;
+	padding: 0;
+	font-family:  'Playfair Display', serif;
+	font-size: 16px ;
+	font-weight: 400;
+	color: #626262;
+}
+/*common css end*/
+/*header start*/
+.header{
+    padding: 40px 0px;
+    /*border: 1px solid black;*/
+}
+.wrapper{
+margin: 0 auto;
+width: 90%;
+/*border: 1px solid black;*/
+overflow: hidden;
+}
+.logo{
+width: 10%;
+/*border: 1px solid black;*/
+float: left;
+}
+.logo img{
+width: 100%;
+}
+.menu{
+width: 60%;
+float: right;
+/*border: 1px solid black;*/
+}
+.menu ul li a{
+    margin: 12px 55px;
+    padding: 0px 2px;
+    display: inline-block;
+    font-size:16px ;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;	
+}
+.menu ul li{
+float: left;
+list-style: none;
+}
+.menu ul{
+margin: 0;	
+float: right;
+}
+.menu ul li:last-child a{
+ margin-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;	
+}
+/*header end*/*/
+/*banner start*/
+.banner{
+}
+.b_img{
+}
+.b_img img{
+    width: 100%;
+}
+
+/*banner end*/
+/*perfect section start*/
+.perfect{
+        padding: 70px 0px;
+}
+.wrapper2{
+    overflow: hidden;
+    margin: 0px auto;
+    width: 80%;
+    /*border: 1px solid red;*/
+}
+.p_content{
+}
+.p_h1{
+    margin: 20px 0px 35px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+.p_p1{
+margin: 0;    
+font-family: 'Ubuntu', sans-serif;
+font-size: 16px;
+font-weight: 300; 
+color: #b4ad9e;  
+text-transform: uppercase;
+}
+.p_text{
+    line-height: 25px; 
+    margin: 0;
+}
+.mb_45{
+    margin-bottom: 45px;
+}
+/*perfect section end*/
+/*blog1 start*/
+.blog1{
+    padding: 70px 0px 10px 0px;
+}
+.b_content{
+  overflow: hidden;
+}
+.s_blog{
+  width: 47%;
+  /*border: 1px solid blue;*/
+   float: left;
+   margin-bottom: 70px;
+}
+.s_blog:nth-child(even){
+  margin-left: 6%;
+}
+.blog1_img{
+}
+.blog1_img img{
+width: 100%;
+}
+/*blog1 end*/
+/*news start*/
+.news{
+    background-color: #f0f0f0;
+    padding:75px 0px;
+}
+.singup{
+    text-align: center;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_from{
+width: 400px;
+/*border: 5px solid red;*/
+margin: 0 auto;
+position: relative;
+}
+.s_from input{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    width: 338px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_from input:focus{
+    outline: 0;
+}
+.s_from button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_from button:focus{
+    outline: 0;
+}
+.s_from button img{
+}
+/*news end*/
+/*blog2 start*/
+.load{
+    text-align: center;
+    margin: 45px 0px 125px;
+}
+.load_btn{
+    width: 165px;
+    height: 60px;
+    border: 1px solid #626262;
+    background-color: white;
+    font-family:  'Playfair Display', serif;
+    font-size: 20px ;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .3s;
+}
+.load_btn:hover{
+    background-color: #626262;
+    color: white;
+}
+/*blog2 end*/
+/*footer start*/
+.footer{
+    background-color: #f0f0f0
+}
+.terms{
+ width: 26%;
+ /*border: 1px solid red;*/
+ float: left;
+}
+.terms ul{
+}
+.terms ul li{
+    list-style: none;
+    float: left;
+}
+.terms ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 26px 23px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.social{
+  width: 25%;
+  /*border: 1px solid red;*/
+  float: right;
+}
+.social ul li a{
+    text-decoration: none;
+}
+.social ul li{
+     list-style: none;
+     float: left;
+     margin: 24px 21px;
+     font-size: 16px;
+     font-weight: 700;
+     color: #000000;
+}
+.social ul{   
+}
+.social ul li a img{
+    width: 100%;
+}
+/*footer end*/
